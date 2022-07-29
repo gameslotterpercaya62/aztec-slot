@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle aztec-slot",
+        "command": "aztec-slot:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "aztec-slot",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "aztec-slot:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
